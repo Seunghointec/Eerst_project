@@ -1,0 +1,84 @@
+
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ß½½Áûÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŞåáÜûÿÿÿÿ
+P
+java:S1854":Remove this useless assignment to local variable "number".(Êõó
+P
+java:S1854"5Remove this useless assignment to local variable "f".(î¾Şİúÿÿÿÿ
+P
+java:S1854"5Remove this useless assignment to local variable "s".(ÑÃšúÿÿÿÿ
+P
+java:S1854"5Remove this useless assignment to local variable "z".(›øçÿÿÿÿÿÿ
+K
+java:S1854"5Remove this useless assignment to local variable "b".(¸şâğ
+Q
+java:S1854";Remove this useless assignment to local variable "number2".(ø¯ÙÅ
+N
+java:S1854"8Remove this useless assignment to local variable "age3".(‹Ç ¨
+N
+java:S1854"8Remove this useless assignment to local variable "age2".(‹Ç ¨
+U
+java:S1854
+":Remove this useless assignment to local variable "fname4".(İ÷ãúÿÿÿÿ
+P
+java:S1854":Remove this useless assignment to local variable "fname3".(ÇâÅé
+P
+java:S1854":Remove this useless assignment to local variable "fname2".(ÇâÅé
+:
+java:S1659"$Declare "fname2" on a separate line.(ÇâÅé
+:
+java:S1659"$Declare "fname3" on a separate line.(ÇâÅé
+8
+java:S1659""Declare "age2" on a separate line.(‹Ç ¨
+8
+java:S1659""Declare "age3" on a separate line.(‹Ç ¨
+D
+java:S6212"/Declare this local variable with "var" instead.(Ÿ–½:
+J
+java:S6212"/Declare this local variable with "var" instead.(Ô‘©öøÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(›øçÿÿÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(ºæüÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(î¾Şİúÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(àş·¥ıÿÿÿÿ
+G
+java:S1135"2Complete the task associated to this TODO comment.(ØÖ§J
+Q
+java:S6212"/Declare this local variable with "var" instead.(Äúæÿÿÿÿÿ8æÏ„ó/
+O
+java:S1135"2Complete the task associated to this TODO comment.(úƒƒ8ş¦…ó/
+W
+java:S1854#"5Remove this useless assignment to local variable "a".(×ó‰«ÿÿÿÿÿ8’÷ÔÄ‘/
+Q
+java:S6212""/Declare this local variable with "var" instead.(àØ±·úÿÿÿÿ8“÷ÔÄ‘/
+Q
+java:S62120"/Declare this local variable with "var" instead.(¦À­Çùÿÿÿÿ8“÷ÔÄ‘/
+]	java:S125%"<This block of commented-out lines of code should be removed.(ÀÂ™šÿÿÿÿÿ8”÷ÔÄ‘/
+X	java:S125/"<This block of commented-out lines of code should be removed.(œ˜Í€8”÷ÔÄ‘/
+A
+java:S1481"+Remove this unused "fname2" local variable.(ÇâÅé
+A
+java:S1481"+Remove this unused "fname3" local variable.(ÇâÅé
+F
+java:S1481	"+Remove this unused "fname4" local variable.(Îƒßïøÿÿÿÿ
+?
+java:S1481")Remove this unused "age2" local variable.(‹Ç ¨
+?
+java:S1481")Remove this unused "age3" local variable.(‹Ç ¨
+B
+java:S1481",Remove this unused "number2" local variable.(ø¯ÙÅ
+R
+java:S1481"7Remove this unused "isvongoledelicious" local variable.(Ô‘©öøÿÿÿÿ
+<
+java:S1481"&Remove this unused "b" local variable.(¸şâğ
+A
+java:S1481"&Remove this unused "z" local variable.(›øçÿÿÿÿÿÿ
+A
+java:S1481"&Remove this unused "s" local variable.(ÑÃšúÿÿÿÿ
+A
+java:S1481"&Remove this unused "f" local variable.(î¾Şİúÿÿÿÿ
+A
+java:S1481"+Remove this unused "number" local variable.(Êõó

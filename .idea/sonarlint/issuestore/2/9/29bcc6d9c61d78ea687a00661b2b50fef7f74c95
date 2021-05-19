@@ -1,0 +1,21 @@
+
+a
+java:S1192p"FDefine a constant instead of duplicating this literal " Euro" 3 times.(±ôµ¼øÿÿÿÿ
+l
+java:S1192p"QDefine a constant instead of duplicating this literal "You have earned " 6 times.(±ôµ¼øÿÿÿÿ
+Y
+java:S1854">Remove this useless assignment to local variable "absExitMin".(›ÛÊ›ùÿÿÿÿ
+^
+java:S1854"CRemove this useless assignment to local variable "absBeginningMin".(àµ¶áüÿÿÿÿ
+[
+java:S1854"@Remove this useless assignment to local variable "absExitHours".(Ä€«ÿúÿÿÿÿ
+Z
+java:S1854"ERemove this useless assignment to local variable "absBeginningHours".(×ã›*
+D
+java:S1940z")Use the opposite operator ("!=") instead.(áÈâçøÿÿÿÿ
+D
+java:S1940z")Use the opposite operator ("!=") instead.(áÈâçøÿÿÿÿ
+E
+java:S1940ƒ")Use the opposite operator ("!=") instead.(áÈâçøÿÿÿÿ
+E
+java:S1940ƒ")Use the opposite operator ("!=") instead.(áÈâçøÿÿÿÿ

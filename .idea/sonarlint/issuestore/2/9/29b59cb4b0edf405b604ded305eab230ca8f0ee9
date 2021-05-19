@@ -1,0 +1,12 @@
+
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(÷Ìﬁ˙
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¢≤ê”
+P	java:S125"<This block of commented-out lines of code should be removed.(ÈƒË
+-
+java:S2757"Was "-=" meant instead?(îòÌà
+Q	java:S125"<This block of commented-out lines of code should be removed.(∑Åï¸
+d
+java:S1126;"BReplace this if-then-else statement by a single method invocation.(ˇ÷øÓ˘ˇˇˇˇ8ƒ”…†í/
+Q	java:S125F"<This block of commented-out lines of code should be removed.(«µÌë
+M
+java:S14819"+Remove this unused "number" local variable.(≈ ä¸¯ˇˇˇˇ8–≥Ÿ†í/

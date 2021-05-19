@@ -1,0 +1,27 @@
+
+J
+java:S1121".Extract the assignment out of this expression.(©¢î¦üÿÿÿÿ
+P
+java:S1118":Add a private constructor to hide the implicit public one.(¯¶“ı
+A
+java:S1172"+Remove this unused method parameter "args".(ÿ÷Ë—
+F
+java:S1172!"+Remove this unused method parameter "args".(ÆÓË¾ûÿÿÿÿ
+R
+java:S1854#"<Remove this useless assignment to local variable "CONSTANT".(¨é†ì
+Q	java:S1254"<This block of commented-out lines of code should be removed.(¤ğí§
+Q
+java:S1854S";Remove this useless assignment to local variable "number2".(Ëå¾
+V
+java:S1854R";Remove this useless assignment to local variable "number1".(€êÕüÿÿÿÿ
+V	java:S125F"<This block of commented-out lines of code should be removed.(£ì¢“ùÿÿÿÿ
+Q	java:S125\"<This block of commented-out lines of code should be removed.(°¦÷²
+Q	java:S125m"<This block of commented-out lines of code should be removed.(ÅÌµ€
+Q	java:S125w"<This block of commented-out lines of code should be removed.(³»û
+V	java:S125y"<This block of commented-out lines of code should be removed.(ôëôûÿÿÿÿ
+E
+java:S1940€")Use the opposite operator (">=") instead.(öŞ¢¾øÿÿÿÿ
+E
+java:S1940")Use the opposite operator (">=") instead.(—İÔ’úÿÿÿÿ
+B
+java:S1481""-Remove this unused "CONSTANT" local variable.(Ğ™Ğk

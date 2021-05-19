@@ -1,0 +1,21 @@
+
+z
+java:S1192	"_Define a constant instead of duplicating this literal "please enter your first number" 3 times.(›¯—òÿÿÿÿÿ
+o
+java:S1488"YImmediately return this expression instead of assigning it to the temporary variable "z".(¼¦˜ë
+W
+java:S1128"ARemove this unused import 'java.security.spec.RSAOtherPrimeInfo'.(“¹ÌÉ
+O
+java:S1854"9Remove this useless assignment to local variable "third".(öÉªÎ
+P
+java:S1854":Remove this useless assignment to local variable "second".(†…Ý¿
+N
+java:S1854
+"9Remove this useless assignment to local variable "first".(Šøœx
+?
+java:S1481
+"*Remove this unused "first" local variable.(Šøœx
+A
+java:S1481"+Remove this unused "second" local variable.(†…Ý¿
+@
+java:S1481"*Remove this unused "third" local variable.(öÉªÎ
