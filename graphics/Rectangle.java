@@ -18,11 +18,10 @@ public class Rectangle {
 
     public Rectangle() {
         //This is a null constructor
-        this(0,0,0,0,0);
     }
 
     //We have created a new constructor with two parameters
-    public Rectangle (int height) {
+  /*  public Rectangle (int height) {
         setWidth(0);
         setPosition(0,0);
         setAngle(0);
@@ -34,7 +33,7 @@ public class Rectangle {
         setWidth(width);
         setPosition(0,0);
         setAngle(0);
-    }
+    }*/
 
     //added a constructor with x and y position.
     //counting number of object that are created
@@ -42,7 +41,7 @@ public class Rectangle {
         this.setWidth(width);
         this.setHeight(height);
         setPosition(xpos, ypos);
-        setAngle();
+        setAngle(angle);
         count++;
     }
 
@@ -85,8 +84,13 @@ public class Rectangle {
     }
 
     public double angle(double angle) {
-        double xrad = Math.toRadians();
-        return angle;
+        //double cosinus = Math.cos(angle);
+        double xrad;
+
+        for (xrad =0;xrad<2*(Math.PI); xrad+=0.1) {
+            xrad = Math.toRadians(angle);
+        }
+        return xrad;
     }
     public double getArea() {
         return height*width;
@@ -98,5 +102,10 @@ public class Rectangle {
     //created a method called count
     public static int getCount () {
         return count;
+    }
+    public void introduceYourRectangle() {
+        System.out.println("My rectangle width is " + getWidth() +" and the height is" +getHeight());
+        System.out.println("the position of rectangle is at " + getX() + " and " +getY());
+        System.out.println("It's has "+getArea() +" for area and " +getPerimeter()+" for perimeter");
     }
 }
