@@ -15,11 +15,14 @@ public class ScrabbleApp {
     }
 
 
-    //Create a method
+    //Create a method to compute score for a letter value
     public int computeScore(String word)  {
+        //we are creating array of characters from your words
         char[] arrayWord = word.toCharArray();
 
+        //By looping through all the characters in an array
         for (int i = 0; i < arrayWord.length; i++) {
+            //If certain character are found, that character will be given a score based on their value
             if (arrayWord[i] == 'q' || arrayWord[i] == 'z') {
                 score += 10;
             }
@@ -44,6 +47,7 @@ public class ScrabbleApp {
                     || arrayWord[i] == 's' || arrayWord[i] == 't') {
                 score += 1;
             }
+            //those scores will be added and returned to the main method.
         }
         return score;
     }
