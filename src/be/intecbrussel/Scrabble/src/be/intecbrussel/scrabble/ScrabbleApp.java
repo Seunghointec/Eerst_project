@@ -1,9 +1,8 @@
 package be.intecbrussel.scrabble;
-import java.util.Locale;
 import java.util.Scanner;
 
 public class ScrabbleApp {
-    private static int score;
+    int score =0;
     static String word;
 
 
@@ -12,21 +11,16 @@ public class ScrabbleApp {
         Scanner keyboard = new Scanner(System.in);
         System.out.println("Please enter your word");
         word = keyboard.nextLine();
-        word = word.toLowerCase(Locale.ROOT);
         System.out.println("This is your score " + computeScore(word));
     }
 
 
-    //Create a method to compute score for a letter value
-    public static int computeScore(String word)  {
-        //we are creating array of characters from your words
+    //Create a method
+    public int computeScore(String word)  {
         char[] arrayWord = word.toCharArray();
 
-        //By looping through all the characters in an array
         for (int i = 0; i < arrayWord.length; i++) {
-            //If certain character are found, that character will be given a score
             if (arrayWord[i] == 'q' || arrayWord[i] == 'z') {
-                //score will be added for every q or z in this line
                 score += 10;
             }
             if (arrayWord[i] == 'j' || arrayWord[i] == 'x') {
@@ -50,7 +44,6 @@ public class ScrabbleApp {
                     || arrayWord[i] == 's' || arrayWord[i] == 't') {
                 score += 1;
             }
-            //those scores will be added and returned to the main method.
         }
         return score;
     }
