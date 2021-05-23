@@ -3,18 +3,20 @@ import java.util.Scanner;
 
 public class ScrabbleApp {
     int score =0;
+    static String word;
 
 
     public static void main(String[] args) {
     //use the scanner to get score for a word
         Scanner keyboard = new Scanner(System.in);
         System.out.println("Please enter your word");
-        String word = keyboard.nextLine();
-        //recall a method compute score for your word
-        ScrabbleApp("hello");
+        word = keyboard.nextLine();
+        System.out.println("This is your score " + computeScore(word));
     }
+
+
     //Create a method
-    public ScrabbleApp(String word)  {
+    public int computeScore(String word)  {
         char[] arrayWord = word.toCharArray();
 
         for (int i = 0; i < arrayWord.length; i++) {
