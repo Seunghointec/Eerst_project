@@ -20,6 +20,7 @@ public class RectangleApp {
         //did not return the value of x radian.
         System.out.println(Rectangle.ANGLES);
         counter = getCount();
-        System.out.println(counter);
+        System.out.println("i have created " + counter + " rectangles");
+
     }
 }

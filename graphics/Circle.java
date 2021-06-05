@@ -2,16 +2,15 @@ package be.intecbrussel.graphics;
 
 public class Circle {
 
-        private int x =0;
-        private int y =0;
-        private int radius =0;
-        private static int count;
-        public static final int ANGLES =4;
 
-        //we have initialized a default value of count
-        static {
-            count=0;
-        }
+        private int radius =0;
+        public static final int ANGLES;
+        private static int numberOfCircleCreated =0;
+
+    //we have initialized a default value of count
+    static {
+        ANGLES = 4;
+    }
 
         public Circle() {
             //This is a null constructor
@@ -22,8 +21,7 @@ public class Circle {
         public Circle(int radius, int xpos, int ypos) {
             this();
             setRadius(radius);
-            setPosition(xpos, ypos);
-            count++;
+            numberOfCircleCreated++;
         }
 
         public void setRadius(int radius) {
@@ -34,22 +32,22 @@ public class Circle {
         public int getRadius() { return radius; }
 
         public int getX() {
-            return x;
+            return getY();
         }
 
         public int getY() {
-            return y;
+            return getY();
         }
 
 
-        public void setPosition(int xpos, int ypos) {
-            this.x = (xpos<0)?-xpos:xpos;
-            this.y = (ypos<0)?-ypos:ypos;
-        }
+
+            //x and y ClassVariable were used
+            //this was used to refer/allow private ClassVariable
+            //this method will override from Shape
+
 
         public double grow(double d) {
-            d = 1.1 * d;
-            return (d);
+            return (1.1 * d);
         }
 
         public double getArea() {
@@ -59,14 +57,16 @@ public class Circle {
         public double getPerimeter() {
             return 2*(Math.PI*radius);
         }
-        //created a method called count
-        public int getCount() {
-            return count;
-        }
+
 
         public void introduceYourCircle() {
             System.out.println("My circle has " + getRadius());
             System.out.println("the position of Circle is at " + getX() + " and " +getY());
             System.out.println("It's has "+getArea() +" for area and " +getPerimeter()+" for perimeter");
+            System.out.println("My circle has grown to " +grow(7));
+        }
+
+        public static int getNumberOfCircleCreated() {
+        return numberOfCircleCreated;
         }
     }

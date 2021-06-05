@@ -6,18 +6,18 @@ public class CircleApp {
 
         public static void main(String[] args) {
 
-            int counter;
-
             Circle circle = new Circle(10,25,35);
 
-
-
             System.out.println("The circle radius is "+ circle.getRadius());
-            System.out.println(circle.ANGLES);
-            counter= getCount();
-            System.out.println(counter);
-
+            //we can only use a ClassVariable in the main method
+            System.out.println(Circle.ANGLES);
+            System.out.println("how many circles were created?");
+            //a static method is being recalled i.e. Classname.method()
+            System.out.println(Circle.getNumberOfCircleCreated());
+            //a non static method is being recalled i.e. objectName.method()
             circle.introduceYourCircle();
+
+
         }
     }
 
